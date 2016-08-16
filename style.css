@@ -1,0 +1,86 @@
+html, body, button, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  box-sizing: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+body {
+  text-align: center;
+  padding: 20px;
+}
+
+#container {
+  width: 609px;
+  margin: auto;
+}
+
+div.button {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+  border: 1px solid;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+p {
+  padding: 5px;
+}
+
+#red {
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(127, 0, 0);
+}
+
+#blue {
+  background-color: rgb(0, 0, 255);
+  border-color: rgb(0, 0, 127);
+}
+
+#green {
+  background-color: rgb(0, 255, 0);
+  border-color: rgb(0, 127,0);
+}
+
+#orange {
+  background-color: rgb(255, 128, 0);
+  border-color: rgb(127, 64, 0);
+}
+
+#yellow {
+  background-color: rgb(255, 255, 0);
+  border-color: rgb(127, 127, 0);
+}
+
+#violet {
+  background-color: rgb(127, 0, 255);
+  border-color: rgb(64, 0, 127);
+}
+
+#black {
+  background-color: rgb(0, 0, 0);
+  border-color: black;
+}
+
+#white {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(127, 127, 127);
+}
+
+#indigo {
+  background-color: rgb(75, 0, 130);
+  border-color: rgb(38, 0, 65);
+}
